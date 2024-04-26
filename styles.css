@@ -125,9 +125,30 @@ ul {
     align-items: center;
     text-align: center;
 }
+
 .box-image {
     width: 120px;
     height: auto;
     border-radius: 12px;
     border: 2px solid #3882F6;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 0 120px 0 120px;
+}
+
+.quote-text {
+   font-size: 36px;
+   font-family: sans-serif;
+   font-weight: lighter;
+   font-style: italic;
+   color: #1f2937;
+}
+
+.quote-citation {
+    align-self: flex-end;
+    font-family: sans-serif;
 }
