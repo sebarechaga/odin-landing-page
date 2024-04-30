@@ -137,7 +137,8 @@ ul {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 0 120px 0 120px;
+    padding: 40px 120px;
+    align-items: center;
 }
 
 .quote-text {
@@ -145,7 +146,10 @@ ul {
    font-family: sans-serif;
    font-weight: lighter;
    font-style: italic;
+   text-align: center;
    color: #1f2937;
+   max-width: 1400px;
+
 }
 
 .quote-citation {
